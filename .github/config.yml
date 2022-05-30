@@ -1,0 +1,7 @@
+# Configuration for welcome - https://github.com/behaviorbot/welcome
+newIssueWelcomeComment: |
+  💖 Thanks for opening this issue. 💖
+
+  A Codinasion team member should be by to give feedback soon. In the meantime, please check out the [contributing guidelines](https://github.com/codinasion/codinasion-dsa/blob/master/CONTRIBUTING.md).
+firstPRMergeComment: |
+  Congrats on merging your first pull request! 🎉🎉🎉

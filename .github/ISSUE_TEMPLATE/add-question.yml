@@ -1,0 +1,36 @@
+name: ✍️ Add questions
+description: Add questions
+labels: ["📝 content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Hubbers!!** This is an open source repo.
+
+        * For questions, ask in [Discussions](https://github.com/codinasion/codinasion-dsa/discussions).
+        * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion-dsa/blob/master/CONTRIBUTING.md).
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/codinasion-dsa/issues).
+
+  - type: textarea
+    attributes:
+      label: Title of programme
+      description: Please enter the Title of the programme.
+    validations:
+      required: true
+
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this issue?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the Codinasion project's [Code of Conduct](https://github.com/codinasion/codinasion-dsa/blob/master/CODE_OF_CONDUCT.md)
+          required: true

@@ -1,0 +1,45 @@
+name: Improve existing content
+description: Make a suggestion to improve the content in an existing programme.
+labels: ["📝 content", "🛠 goal: fix"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Hubbers!!** This is an open source repo.
+
+        * For questions, ask in [Discussions](https://github.com/codinasion/codinasion-dsa/discussions).
+        * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion-dsa/blob/master/CONTRIBUTING.md).
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/codinasion-dsa/issues).
+
+  - type: textarea
+    attributes:
+      label: What programme on codinasion.vercel.app/dsa is affected?
+      description: Please link to the programme you'd like to see updated.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: What part(s) of the programme would you like to see updated?
+      description: |
+        - Give as much detail as you can to help us understand the change you want to see. 
+        - Why should the content be changed? What use cases does it support? 
+        - What is the expected outcome?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the Codinasion project's [Code of Conduct](https://github.com/codinasion/codinasion-dsa/blob/master/CODE_OF_CONDUCT.md)
+          required: true
