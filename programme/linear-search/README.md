@@ -82,7 +82,7 @@ class LinearSearch
           System.out.print("Found at index "+ i);
           result = 1;
         }
-     }
+      }
         if(result == 0){
           System.out.println("Target Not Found !!!");
       	}
