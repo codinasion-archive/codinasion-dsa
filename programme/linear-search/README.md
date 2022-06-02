@@ -1,6 +1,7 @@
 ---
 title: Linear Search
 description: Linear search is the simplest searching algorithm. In Linear search, we simply traverse the list completely and match each element of the list with the target item, whose location is to be found. If the match is found, then the location of the item is returned. Otherwise, the algorithm returns NULL.
+image: linear-search.png
 tags:
   - c
   - java
