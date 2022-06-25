@@ -91,7 +91,7 @@ class LinearSearch {
   }
 }
 ```
-``` go 
+```go 
 // Write a GO programme for Linear Search.
 package main
 
