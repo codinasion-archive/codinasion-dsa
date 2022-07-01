@@ -2,9 +2,6 @@
 title: Linear Search
 description: Linear search is the simplest searching algorithm. In Linear search, we simply traverse the list completely and match each element of the list with the target item, whose location is to be found. If the match is found, then the location of the item is returned. Otherwise, the algorithm returns NULL.
 image: linear-search.png
-tags:
-  - c
-  - java
 contributors:
   - harshraj8843
   - PrajwalBorkar
@@ -43,51 +40,3 @@ Space Complexity : O(1)
 ```
 
 ---
-
-<CodeBlock>
-
-```c
-#include <stdio.h>
-
-int main()
-{
-    int n = 6;
-    int input[] = {10, 20, 80, 30, 60, 50};
-    int target = 30;
-
-    for (int i = 0; i < n; i++)
-    {
-        if (input[i] == target)
-        {
-            printf("Found at index %d !!!\n", i);
-            return 1;
-        }
-    }
-
-    printf("Target Not Found !!!\n");
-
-    return 0;
-}
-```
-
-```java
-class LinearSearch {
-  public static void main(String[] args) {
-    int n = 6;
-    int input[] = { 10, 20, 80, 30, 60, 50 };
-    int target = 30;
-    int result = 0;
-    for (int i = 0; i < n; i++) {
-      if (input[i] == target) {
-        System.out.println("Found at index " + i);
-        result = 1;
-      }
-    }
-    if (result == 0) {
-      System.out.println("Target Not Found !!!");
-    }
-  }
-}
-```
-
-</CodeBlock>
