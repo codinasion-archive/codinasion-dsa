@@ -1,6 +1,7 @@
-// Linear Search
+// Write a programme for linear search
 
 class LinearSearch {
+
   public static void main(String[] args) {
     int n = 6;
     int input[] = { 10, 20, 80, 30, 60, 50 };
