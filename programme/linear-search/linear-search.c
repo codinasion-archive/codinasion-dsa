@@ -1,5 +1,4 @@
-// Linear Search
-
+// Write a programme for linear search
 #include <stdio.h>
 
 int main()

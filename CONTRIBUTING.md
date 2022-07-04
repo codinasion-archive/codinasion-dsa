@@ -53,8 +53,7 @@ Click **Edit in GitHub** at the top of any Codinasion webpage to make small chan
 
 #### Add Content
 
-- Add Answer
-  - Add or modify programme file (.py, .c, .cpp, etc) in corresponding folder.
+- Add or modify programme file (.py, .c, .cpp, etc) in corresponding folder.
 
 ### Commit your update
 
