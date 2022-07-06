@@ -5,6 +5,7 @@ image: linear-search.png
 contributors:
   - harshraj8843
   - PrajwalBorkar
+  - gauravagrwal
 ---
 
 ## Linear Search
