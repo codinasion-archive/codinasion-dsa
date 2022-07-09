@@ -6,6 +6,7 @@ contributors:
   - harshraj8843
   - PrajwalBorkar
   - gauravagrwal
+  - yogeshCt3
 ---
 
 ## Linear Search
