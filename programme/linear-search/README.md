@@ -7,6 +7,7 @@ contributors:
   - PrajwalBorkar
   - gauravagrwal
   - yogeshCt3
+  - PaoloFer
 ---
 
 ## Linear Search
