@@ -3,7 +3,7 @@ title: Validate Palindrome String
 description: 
 In Palindrome algorithm, we simply reverse the the input String. If the two strig are equals then return True, otherwise, the algorithm returns False.
 
-image: linear-search.png
+image: validate-palindrome.png
 contributors:
   - PaoloFer
 ---
