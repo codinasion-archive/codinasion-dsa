@@ -8,6 +8,7 @@ contributors:
   - gauravagrwal
   - yogeshCt3
   - isobarbaric
+  - PaoloFer
 ---
 
 ## Linear Search
