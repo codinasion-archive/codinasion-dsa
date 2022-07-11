@@ -1,16 +1,14 @@
-/*
-Write a C++ programme for Linear Search.
-
-Name: Krish Shah
-*/
+// Write a programme for Linear Search
 
 #include <iostream>
 #include <sstream>
 #include <vector>
 #include <string>
+
 using namespace std;
 
-vector<int> takeInput() {
+vector<int> takeInput()
+{
     // taking input of string containing numbers
     string numbers;
     cout << "Input  : ";
@@ -26,7 +24,8 @@ vector<int> takeInput() {
     return input;
 }
 
-int main() {
+int main()
+{
     vector<int> numbers = takeInput();
 
     int target;
@@ -36,13 +35,18 @@ int main() {
     cout << "Output : ";
 
     int elementIndex = -1;
-    for (int i = 0; i < numbers.size(); i++) {
-        if (numbers[i] == target) {
+    for (int i = 0; i < numbers.size(); i++)
+    {
+        if (numbers[i] == target)
+        {
             elementIndex = i;
         }
     }
 
-    cout << elementIndex;
+    elementIndex == -1 ? cout << "Target Not Found" : cout << "Target found at index " << elementIndex;
+    cout << endl;
 
     return 0;
 }
+
+// Code contributed by: @isobarbaric (Krish Shah)
