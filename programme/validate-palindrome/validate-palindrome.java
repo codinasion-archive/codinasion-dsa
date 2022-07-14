@@ -1,6 +1,6 @@
 class Main {
     public static void main(String[] args) {
-        String str1 = "level";
+        String str1 = "radar";
         System.out.println("Input: " + str1);
         System.out.println("Output: " + isPalindrome(str1));
 
