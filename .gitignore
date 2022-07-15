@@ -1,5 +1,6 @@
 *.out
 *.exe
 *.class
+.idea
 
 .DS_Store
