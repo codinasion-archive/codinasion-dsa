@@ -4,6 +4,7 @@ description: In Palindrome algorithm, we simply reverse the the input String. If
 image: validate-palindrome.png
 contributors:
   - PaoloFer
+  - Darren-R
   - nohno2
   - MadhuS-1605
 ---
