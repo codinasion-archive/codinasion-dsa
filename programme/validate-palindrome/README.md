@@ -5,6 +5,7 @@ image: validate-palindrome.png
 contributors:
   - PaoloFer
   - nohno2
+  - MadhuS-1605
 ---
 
 ## Palindrome
