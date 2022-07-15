@@ -1,3 +1,4 @@
+// Write a programme to validate palindrome
 package main
 
 import (
@@ -6,9 +7,9 @@ import (
 
 func main() {
 	var str string
-	fmt.Println("Enter a string: ")
+	fmt.Print("Enter a string : ")
 	fmt.Scan(&str)
-	fmt.Println("Is", str, "a palindrome: ", isPalindrome(str))
+	fmt.Println("\nIs '"+str+"' a palindrome : ", isPalindrome(str))
 }
 
 func isPalindrome(str string) bool {
