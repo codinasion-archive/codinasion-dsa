@@ -14,7 +14,7 @@ def binarySearch(arr, left, right, x):
     return None
 
 
-print("Binary Search algorithmn to find the position of an element in a sorted array.")
+print("Binary Search algorithm to find the position of an element in a sorted array.")
 
 while True:
     try:
