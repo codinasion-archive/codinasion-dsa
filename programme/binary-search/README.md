@@ -1,20 +1,29 @@
 ---
 title: Binary Search
-description: Taking in a sorted int array and a target return the index of the target value. Since the array is sorted we are able to compare our target value to the middle element of the array. If value matches target we can return the index otherwise we adjust the window depending on if it's less than or greater than element value.
+description: Binary search is searching algorithm with which given a sorted array it is able to search for a target by repeatedly dividing the search interval in half making use of the fact that the array is sorted and achieving much lower time complexity compared to linear search. 
 image: binary-search.png
 contributors:
   - RogerMReyes
+  - ihammadasghar
 ---
 
 ## Binary Search
 
-Taking in a sorted int array and a target return the index of the target value. Since the array is sorted we are able to compare our target value to the middle element of the array. If value matches target we can return the index otherwise we adjust the window depending on if it's less than or greater than element value.
+Binary search is searching algorithm with which given a sorted array it is able to search for a target by repeatedly dividing the search interval in half making use of the fact that the array is sorted and achieving much lower time complexity compared to linear search. 
 
 ```txt
 Input  : 10 20 30 50 60 80
 Target : 30
 
 Output : 2
+```
+
+```txt
+Time Complexity : O(Log n)
+```
+
+```txt
+Space Complexity : O(1)
 ```
 
 ---
