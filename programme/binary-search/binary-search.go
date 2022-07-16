@@ -1,3 +1,4 @@
+// Write a programme for binary search
 package main
 
 import (
@@ -6,19 +7,20 @@ import (
 
 func main() {
 	var arr []int
-	fmt.Println("Enter the size of array: ")
+	fmt.Print("Enter the size of array : ")
 	var size int
 	fmt.Scan(&size)
-	fmt.Println("Enter the elements of array: ")
+
 	for i := 0; i < size; i++ {
 		var elem int
+		fmt.Print("Enter element : ")
 		fmt.Scan(&elem)
 		arr = append(arr, elem)
 	}
 	var n int
-	fmt.Println("Enter a number: ")
+	fmt.Print("\nEnter a number : ")
 	fmt.Scan(&n)
-	fmt.Println("Enter a number: ", n, "is found at index", binarySearch(arr, n))
+	fmt.Println("\nOutput :", n, "is found at index", binarySearch(arr, n))
 }
 
 func binarySearch(arr []int, n int) int {
