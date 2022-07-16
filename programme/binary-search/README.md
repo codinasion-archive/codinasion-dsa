@@ -4,6 +4,7 @@ description: Binary search is searching algorithm with which given a sorted arra
 image: binary-search.png
 contributors:
   - RogerMReyes
+  - Darren-R
   - ihammadasghar
   - MadhuS-1605
 ---
