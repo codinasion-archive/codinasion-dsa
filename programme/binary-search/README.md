@@ -5,6 +5,7 @@ image: binary-search.png
 contributors:
   - RogerMReyes
   - ihammadasghar
+  - MadhuS-1605
 ---
 
 ## Binary Search
