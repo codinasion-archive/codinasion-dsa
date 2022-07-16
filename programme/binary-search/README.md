@@ -4,6 +4,7 @@ description: Taking in a sorted int array and a target return the index of the t
 image: binary-search.png
 contributors:
   - RogerMReyes
+  - Darren-R
 ---
 
 ## Binary Search
