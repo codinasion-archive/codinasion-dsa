@@ -7,6 +7,7 @@ contributors:
   - Darren-R
   - ihammadasghar
   - MadhuS-1605
+  - n1ongol
 ---
 
 ## Binary Search
