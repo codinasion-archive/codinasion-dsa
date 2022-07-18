@@ -1,27 +1,49 @@
+// write a programme for binary search
 #include <iostream>
 
-int binary_search(int* tab, int size, int target);
+using namespace std;
 
-int main(){
+int binary_search(int *tab, int size, int target);
 
-    int input[] = {10,20,30,50,60,80};
+int main()
+{
+    int input[] = {10, 20, 30, 50, 60, 80};
     int target = 30;
 
-    std::cout << binary_search(input,6,target) << std::endl;
+    cout << "Input  : ";
+    for (int i = 0; i < 6; i++)
+    {
+        cout << input[i] << " ";
+    }
+
+    cout << "\nTarget : " << target << endl;
+    
+    int result = binary_search(input, sizeof(input) / sizeof(int), target);
+    cout << "\nOutput : ";
+    if (result == -1)
+    {
+        cout << "Not found" << endl;
+    }
+    else
+    {
+        cout << "Found at index " << result << endl;
+    }
 
     return 0;
 }
 
-int binary_search(int* arr, int size, int target){
+int binary_search(int *arr, int size, int target)
+{
 
-    int left  = 0,
+    int left = 0,
         right = size - 1;
 
-    while(left <= right){
+    while (left <= right)
+    {
         int mid = (left + right) / 2;
-        if(arr[mid] == target)
-            return mid; 
-        else if(arr[mid] > target)
+        if (arr[mid] == target)
+            return mid;
+        else if (arr[mid] > target)
             right = mid + 1;
         else
             left = mid + 1;
