@@ -1,5 +1,5 @@
-//Write a programme to Validate Palindrom string
-use std::io;
+// Write a programme to Validate Palindrom string
+use std::io::{self, Write};
 
 fn validate_palindrome(s: &mut String) -> bool {
     //convert input string to lowercase in place
@@ -16,11 +16,11 @@ fn validate_palindrome(s: &mut String) -> bool {
 
 fn main() {
     let mut input = String::new();
-    let stdin = io::stdin();
-    println!("Input : ");
-    stdin.read_line(&mut input);
-    //remove new line character from input
-    input.pop();
+    print!("Input  : ");
+    let _ = io::stdout().flush();
+    io::stdin()
+        .read_line(&mut input)
+        .expect("Error reading from STDIN");
     let is_palindrome = validate_palindrome(&mut input);
     println!("Output : {}", is_palindrome);
 }
