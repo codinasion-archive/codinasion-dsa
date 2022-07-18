@@ -8,6 +8,7 @@ contributors:
   - ihammadasghar
   - MadhuS-1605
   - rashmod
+  - n1ongol
 ---
 
 ## Binary Search
