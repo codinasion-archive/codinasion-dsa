@@ -28,6 +28,6 @@ int main(void) {
   if (result == -1)
     printf("Not found");
   else
-    printf(%d, result);
+    printf("%d", result);
   return 0;
 }
