@@ -9,6 +9,7 @@ contributors:
   - MadhuS-1605
   - rashmod
   - n1ongol
+  - SpirosArk
 ---
 
 ## Binary Search
