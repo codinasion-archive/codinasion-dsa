@@ -1,4 +1,4 @@
-use core::cmp::Ordering;
+use std::cmp::Ordering;
 pub fn find<R: AsRef<[T]>, T: Ord>(space: R, key: T) -> Option<usize> {
     let space = space.as_ref();
     let mid = space.len() / 2;
