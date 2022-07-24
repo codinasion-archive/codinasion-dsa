@@ -10,6 +10,7 @@ contributors:
   - isobarbaric
   - PaoloFer
   - ifeelblue99
+  - JefvdA
 ---
 
 ## Linear Search
