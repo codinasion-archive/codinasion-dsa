@@ -9,6 +9,7 @@ contributors:
   - yogeshCt3
   - isobarbaric
   - PaoloFer
+  - ifeelblue99
 ---
 
 ## Linear Search
