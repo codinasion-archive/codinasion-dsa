@@ -1,32 +1,20 @@
+// Write a programme for Linear Search.
 
-struct Data<T> {
-  array: Vec<T>
-}
-
-impl<T> Data<T> where T: PartialEq + std::fmt::Display {
-  fn new(arr: Vec<T>) -> Self {
-    Data {array:arr}
-  }
-
-  fn linear_search(&self, target: T) -> Option<usize> {
-
-    for indx in 0..self.array.len() {
-      println!("current element: {}", self.array[indx]);
-      if self.array[indx] == target {
-        return Some(indx)
-      }
+pub fn find<R: AsRef<[T]>, T: Ord>(space: R, key: T) -> Option<usize> {
+    let space = space.as_ref();
+    for i in 0..space.len() {
+        if space[i] == key {
+            return Some(i);
+        }
     }
-    None
-  }
+    return Some(0);
 }
 
-// test code
- fn main() {
-  let sample_array = Data::new(vec![5, 8, 9, 15 ,18, 19]);
+pub fn main() {
+    let array = [10, 20, 80, 30, 60, 50];
+    let target = 30;
 
-  if let Some(res) = sample_array.linear_search(15) {
-    println!("found at index: {}", res);
-  } else {
-    println!("not found!");
-  }
+    println!("Array  : {:?}", array);
+    println!("Target : {}", target);
+    println!("Index  : {}", find(array, target).unwrap());
 }
