@@ -38,6 +38,6 @@ function partition(arr, left, right) {
 
 let a = [5, 4, 1, 6, 2]
 
-console.log("Before Quick Sort: " + a)
+console.log("Input  : " + a)
 quickSort(a)
-console.log("After Quick Sort:  " + a)
+console.log("Output : " + a)
