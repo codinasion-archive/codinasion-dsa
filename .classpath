@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="programme/binary-search"/>
-	<classpathentry kind="src" path="programme/bubble-sort"/>
-	<classpathentry kind="src" path="programme/linear-search"/>
-	<classpathentry kind="src" path="programme/validate-palindrome"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
