@@ -6,6 +6,7 @@ contributors:
   - anirudhhkashyap
   - KacperTKI
   - sandeepB3
+  - udaybadhe
 ---
 
 ## Quick Sort
