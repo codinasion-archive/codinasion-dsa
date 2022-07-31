@@ -4,6 +4,8 @@ description: QuickSort is a Divide and Conquer algorithm. It picks an element as
 image: quick-sort.png
 contributors:
   - anirudhhkashyap
+  - KacperTKI
+  - sandeepB3
 ---
 
 ## Quick Sort
