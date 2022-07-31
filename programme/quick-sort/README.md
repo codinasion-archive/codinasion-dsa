@@ -5,6 +5,7 @@ image: quick-sort.png
 contributors:
   - anirudhhkashyap
   - KacperTKI
+  - sandeepB3
 ---
 
 ## Quick Sort
