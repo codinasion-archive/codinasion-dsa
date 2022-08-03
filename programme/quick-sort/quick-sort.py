@@ -1,3 +1,5 @@
+# Write a programme for quick sort
+
 def get_middle_value(value0, value1, value2):
     """Returns the value that is in between the other values"""
 
@@ -41,7 +43,8 @@ def quick_sort(array):
         # it should not swap when entering the loop
         if not first:
             # swap the items
-            array = swap_items(array, index_item_from_left, index_item_from_right)
+            array = swap_items(array, index_item_from_left,
+                               index_item_from_right)
         else:
             first = False
 
@@ -75,16 +78,14 @@ if __name__ == "__main__":
     # example test:
     import random
 
-    for n in range(1000):
-        print(f"Durchgang {n}")
-        array = []
-        for i in range(20):
-            array.append(random.randint(0, 50))
-        print(f"array: {array}")
-        array = quick_sort(array)
-        print(f"sorted array: {array}")
+    array = []
+    for i in range(20):
+        array.append(random.randint(0, 50))
+    print(f"Before sort : {array}")
+    array = quick_sort(array)
+    print(f"After  sort : {array}")
 
-        last_value = array[0]
-        for i in range(1, len(array)):
-            if array[i] < array[i - 1]:
-                raise ValueError("Wrong result")
+    last_value = array[0]
+    for i in range(1, len(array)):
+        if array[i] < array[i - 1]:
+            raise ValueError("Wrong result")
