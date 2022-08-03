@@ -9,6 +9,7 @@ contributors:
   - sandeepB3
   - udaybadhe
   - Chrisi2209
+  - GKosheev
 ---
 
 ## Quick Sort
