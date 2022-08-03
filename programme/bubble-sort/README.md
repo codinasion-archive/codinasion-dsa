@@ -5,6 +5,7 @@ image: bubble-sort.png
 contributors:
   - 9gl
   - John8790909
+  - Peleg-Noam 
 ---
 
 ## Bubble Sort
