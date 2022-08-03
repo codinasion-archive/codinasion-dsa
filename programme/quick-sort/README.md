@@ -8,6 +8,7 @@ contributors:
   - KacperTKI
   - sandeepB3
   - udaybadhe
+  - Chrisi2209
 ---
 
 ## Quick Sort
