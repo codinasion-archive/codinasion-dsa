@@ -11,6 +11,7 @@ contributors:
   - PaoloFer
   - ifeelblue99
   - JefvdA
+  - 9gl
 ---
 
 ## Linear Search
