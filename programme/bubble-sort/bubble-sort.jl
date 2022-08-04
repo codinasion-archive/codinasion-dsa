@@ -14,6 +14,6 @@ end
 
 array = [15, 33, 27, 35, 10]
 
-println("Array  : ", array)
+println("Input  : ", array)
 sort!(array)
-println("Sorted : ", array)
+println("Output : ", array)
