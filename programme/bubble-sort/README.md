@@ -6,6 +6,7 @@ contributors:
   - 9gl
   - John8790909
   - Peleg-Noam 
+  - JefvdA
 ---
 
 ## Bubble Sort
