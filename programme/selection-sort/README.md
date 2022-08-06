@@ -6,6 +6,7 @@ contributors:
   - anastazir
   - DaltonCash
   - curious0207
+  - Ashad001
 ---
 
 ## Selection Sort
