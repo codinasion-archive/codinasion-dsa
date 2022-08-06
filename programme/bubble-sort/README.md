@@ -4,7 +4,9 @@ description: Bubble sort is a simple sorting algorithm. This sorting algorithm i
 image: bubble-sort.png
 contributors:
   - 9gl
-  - Peleg-Noam
+  - John8790909
+  - Peleg-Noam 
+  - JefvdA
 ---
 
 ## Bubble Sort
