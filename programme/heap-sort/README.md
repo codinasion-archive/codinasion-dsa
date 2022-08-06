@@ -4,6 +4,7 @@ description: Heap sort is a comparison-based sorting technique based on Binary H
 image: heap-sort.png
 contributors:
   - Peleg-Noam
+  - KacperTKI
 ---
 
 ## Heap Sort
