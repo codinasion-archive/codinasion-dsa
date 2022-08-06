@@ -5,6 +5,7 @@ image: insertion-sort.png
 contributors:
   - anastazir
   - KacperTKI
+  - sou127
 ---
 
 ## Insertion Sort
