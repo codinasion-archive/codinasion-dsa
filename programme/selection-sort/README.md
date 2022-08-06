@@ -4,6 +4,9 @@ description: Selection sort algorithm sorts an array by repeatedly finding the m
 image: selection-sort.png
 contributors:
   - anastazir
+  - DaltonCash
+  - curious0207
+  - Ashad001
 ---
 
 ## Selection Sort
