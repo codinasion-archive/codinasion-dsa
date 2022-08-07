@@ -1,5 +1,5 @@
-#include<stdio.h>
 // Merge Sort  Time complexity: O(n*logn) , Space complexity: O(n).
+#include<stdio.h>
 void mergearray(int arr[],int low,int mid,int high){
     int s1=mid-low+1;
     int s2=high-mid;
@@ -47,13 +47,13 @@ int main(){
     int l=0;
     int n=sizeof(arr)/sizeof(arr[0]);
     int h=n-1;
-    printf("Before Merge sort:\n");
+    printf("Input : ");
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
     printf("\n");
     mergesort(arr,l,h);
-    printf("After Merge Sort:\n");
+    printf("Output : ");
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
