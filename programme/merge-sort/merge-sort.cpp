@@ -1,27 +1,37 @@
+// Write a programme for merge sort
 #include <iostream>
+
+using namespace std;
 
 void PrintArray(int *arr, int size);
 void MergeSort(int *arr, int leftIndex, int rightIndex);
 
-int main() {
-    int array[] = { 5, 4, 1, 6, 2 };
+int main()
+{
+    int array[] = {5, 4, 1, 6, 2};
     int size = sizeof(array) / sizeof(array[0]);
+    cout << "Before sorting : ";
     PrintArray(array, size);
 
-    MergeSort(array, 0, size-1);
+    MergeSort(array, 0, size - 1);
+
+    cout << "After  sorting : ";
     PrintArray(array, size);
 
     return 0;
 }
 
-void PrintArray(int *arr, int size) {
-    for (int i = 0; i < size; i++) {
-        std::cout << arr[i] << " ";
+void PrintArray(int *arr, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
     }
-    std::cout << '\n';
+    cout << '\n';
 }
 
-void Merge(int *arr, int leftIndex, int middle, int rightIndex) {
+void Merge(int *arr, int leftIndex, int middle, int rightIndex)
+{
     // get the sizes of the two auxiliary arrays
     const int subArrSize1 = middle - leftIndex + 1;
     const int subArrSize2 = rightIndex - middle;
@@ -32,32 +42,42 @@ void Merge(int *arr, int leftIndex, int middle, int rightIndex) {
 
     // copy the values of the left side array into the auxiliary array
     int j = 0;
-    for (int i = leftIndex; i <= middle; i++) {
+    for (int i = leftIndex; i <= middle; i++)
+    {
         subArr1[j++] = arr[i];
     }
     // copy the values of the right side array into the auxiliary array
     int p = 0;
-    for (int i = middle + 1; i <= rightIndex; i++) {
+    for (int i = middle + 1; i <= rightIndex; i++)
+    {
         subArr2[p++] = arr[i];
     }
 
     // move the values from the auxiliary arrays to the main array
     j = 0;
     p = 0;
-    for (int i = leftIndex; i <= rightIndex; i++) {
+    for (int i = leftIndex; i <= rightIndex; i++)
+    {
         // check if both arrays are still being checked
-        if (j < subArrSize1 && p < subArrSize2) {
+        if (j < subArrSize1 && p < subArrSize2)
+        {
             // if so, then check which value is smaller
-            if (subArr1[j] < subArr2[p]) {
+            if (subArr1[j] < subArr2[p])
+            {
                 arr[i] = subArr1[j++];
-            } else {
+            }
+            else
+            {
                 arr[i] = subArr2[p++];
             }
         }
         // if one array is out of bounds, merge the values from the one, which is not out of bounds
-        else if (j < subArrSize1 && p >= subArrSize2) {
+        else if (j < subArrSize1 && p >= subArrSize2)
+        {
             arr[i] = subArr1[j++];
-        } else {
+        }
+        else
+        {
             arr[i] = subArr2[p++];
         }
     }
@@ -67,7 +87,8 @@ void Merge(int *arr, int leftIndex, int middle, int rightIndex) {
     delete[] subArr2;
 }
 
-void MergeSort(int *arr, int leftIndex, int rightIndex) {
+void MergeSort(int *arr, int leftIndex, int rightIndex)
+{
     // check if the array has been divided until only one value is left
     if (leftIndex >= rightIndex)
         return;
