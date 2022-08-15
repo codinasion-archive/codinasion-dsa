@@ -1,9 +1,11 @@
 ---
 title: Merge Sort
 description: The Merge Sort algorithm is a sorting algorithm that is considered an example of the divide and conquer strategy. So, in this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
-image: merge-sort.png
+image: 
 contributors:
   - KacperTKI
+  - mobo07
+  - curious0207
 ---
 
 ## Merge Sort
